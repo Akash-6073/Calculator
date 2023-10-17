@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"); /*Young serif*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"); /*Roboto*/
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"); /* Ubuntu*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg,rgba(29, 114, 171, 0.756),rgba(43, 195, 43, 0.537));
+
+}
+.main{
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Calculator{
+    background-color: rgba(27, 26, 26, 0.844);
+    padding: 25px;
+    border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  color: white;
+}
+
+
+
